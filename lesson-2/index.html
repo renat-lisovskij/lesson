@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Basics</title>
+<style>
+  .colortext {
+    color: red;
+  }
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">ОСНОВНЫЕ ТЕГИ HTML</h2>
+
+<table style="width:100%">
+  <tr bgcolor="#D8BFD8">
+    <th colspan="3">
+        <i>
+            <center>
+                <p style="color: #d966d9;">1)СТРУКТУРА WEB-страницы</p>
+            </center>
+        </i>
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lthtml&gt/html&gt</span>
+      </td>
+    <td>Начало и конец страницы</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lthead&gt&lt/head&gt</span>
+    </td>
+    <td>Описание страницы, содержащее различную информацию не отображаеиую в теле документа. Здесь распологается тег имени страницы и теги для поисковых машин.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lttitle&gt&lt/title&gt</span>
+    </td>
+    <td>Имя страницы</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody&gt&lt/body&gt</span>
+    </td>
+    <td>Определяет видимую часть страницы</td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#D8BFD8">
+    <th colspan="2">
+        <i>
+            <center>
+              <p style="color: #d966d9;">2)АТРИБУТЫ ТЕЛА ДОКУМЕНТА</p>
+            </center>
+        </i>
+    </th>
+    <td>
+        <i>
+          <p style="color: #d966d9;">Значение атрибутов</p>
+        </i>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody background="URL"&gt</span>
+    </td>
+    <td>Фоновое изображение</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><span class="colortext">&ltbody bgcolor="#RRGGBB&gt</span>
+    </td>
+    <td>Цвет фона документа, используя значение цвета в виде RRGGBB - пример: FF0000 - красный цвет.</td>
+    <td rowspan="5">red,<br>blue,<br>#FF0000 и др.</td>
+</tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody text="#RRGGBB"&gt</span>
+    </td>
+    <td>Цвет текста документа, используя значение цвета в виде RRGGBB - пример: 000000 - черный цвет.</td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody link="#RRGGBB&gt</span>
+    </td>
+    <td>Устанавливает цвет гиперссылок, используя значение цвета в виде RRGGBB - пример: 00FF00 - зеленый цвет.</td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody vlink="#RRGGBB&gt</span>
+    </td>
+    <td>Устанавливает цвет гиперссылок на которых вы уже побывали, используя значение цвета в виде RRGGBB - пример: 333333 - серый цвет.</td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbody alink="#RRGGBB&gt</span>
+    </td>
+    <td>Устанавливает цвет гиперссылок при нажатии.</td>
+  </tr>
+  <tr bgcolor="#D8BFD8">
+    <th colspan="2">
+        <i>
+            <center>
+              <p style="color: #d966d9;">3)ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА</p>
+            </center>
+        </i>
+    </th>
+    <td>
+        <i>
+          <p style="color: #d966d9;">Значение атрибутов</p>
+        </i>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lth?&gt&lt/h?&gt</span>
+    </td>
+    <td>Создает заголовок (уровни от 1 до 6)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lth? align="*"&gt&lt/h?&gt</span>
+    </td>
+    <td>Заголовок c выравниванием</td>
+    <td>left,right,<br>center</td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltp&gt&lt/p&gt</span>
+    </td>
+    <td>Создает новый параграф</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td
+    <span class="colortext">&ltp align="*"&gt&lt/p&gt</span>
+  </td>
+    <td>выравнивает параграф относительно одной из сторон документа</td>
+    <td>left,rigt,<br>center,<br>justify</td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltbr&gt</span>
+    </td>
+    <td>Вставляет перевод строки</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltcenter&gt&lt/center&gt</span>
+    </td>
+    <td>выравнивает по центру</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltdiv align="*"&gt</span>
+    </td>
+    <td>Форматирование больших блоков текста страницы, также используется в таблицах стилей</td>
+    <td>left,right,<br>center,<br>justife</td>  
+</tr>
+<tr bgcolor="#D8BFD8">
+    <th colspan="2">
+        <i>
+            <center>
+              <p style="color: #d966d9;">4)ТЕГИ ДЛЯ ФОРМАРТИРОВАНИЯ ШРИФТА</p>
+            </center>
+        </i>
+    </th>
+    <td>
+        <i>
+          <p style="color: #d966d9;">Значение атрибутов</p>
+        </i>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltb&gt&lt/b&gt</span>
+    </td>
+    <td>
+        <b>ЖИРНЫЙ</b>
+        </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&lti&gt&lt/i&gt</span>
+    </td>
+    <td>
+        <i>Курсив</i>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltu&gt&lt/u&gt</span>
+    </td>
+    <td>
+        <u>Подчеркнутый</u>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltsup&gt&lt/sup&gt</span>
+    </td>
+    <td>Верхний индекс - пример: a<sup>2</sup> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltsub&gt&lt/sub&gt</span>
+    </td>
+    <td>Нижний индекс - пример: a<sub>2</sub></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <span class="colortext">&ltfont size=?&gt&lt/font&gt</span>
+    </td>
+    <td>Размер шрифта в пределахот 1 до 7</td>
+    <td></td>
+  </tr>
+
+</table>
+
+</body>
+</html>
